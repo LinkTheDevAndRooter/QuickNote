@@ -4,7 +4,6 @@ Utilidad ligera de escritorio para Windows con interfaz gráfica (Windows Forms)
 
 ## Características
 
-- **Interfaz gráfica limpia:** Abre directamente una ventana sin consola de fondo (`/target:winexe`).
 - **Guardado rápido:** Agrega notas con marca de fecha y hora presionando **Enter** o haciendo clic en **Guardar**.
 - **Historial visible:** Consulta todas tus notas guardadas desde la misma ventana.
 - **Borrado seguro:** Opción para limpiar el historial con confirmación previa.
