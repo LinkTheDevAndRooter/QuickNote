@@ -10,9 +10,15 @@ Utilidad ligera de escritorio para Windows con interfaz gráfica (Windows Forms)
 - **Borrado seguro:** Opción para limpiar el historial con confirmación previa.
 - **Ejecutable portátil:** Funciona como un `.exe` independiente sin requerir instalación compleja.
 
+## Compilación con ícono
+
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /optimize+ /win32icon:icono.ico /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /out:QuickNote.exe QuickNote.cs
+
 ## Almacenamiento de notas
 
 Las notas se guardan automáticamente en texto plano en la carpeta Documentos del usuario:
 
 ```text
 C:\Users\user\Documents\QuickNote\notas.txt
+
+
