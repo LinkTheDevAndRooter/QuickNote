@@ -12,7 +12,7 @@ Utilidad ligera de escritorio para Windows con interfaz gráfica (Windows Forms)
 
 ## Compilación con ícono
 
-C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /optimize+ /win32icon:icono.ico /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /out:QuickNote.exe QuickNote.cs
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /optimize+ /win32icon:stickie.ico /reference:System.Windows.Forms.dll /reference:System.Drawing.dll /out:QuickNote.exe QuickNote.cs
 
 ## Almacenamiento de notas
 
